@@ -47,6 +47,7 @@ Login.prototype.logout = function(sessionId) {
 	*/
 		this.sessionMap = {
 		99999 : { name: '', email: '' }
+	};
 };
 
 // Export the Login class
